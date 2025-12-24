@@ -2,6 +2,8 @@
 
 A complete Next.js application demonstrating **all 4 Pine Labs checkout integration methods** for selling a Generative AI Course at ₹99.99.
 
+🔗 **Live Demo**: [pinelabs-payment-gateway-integration.netlify.app](https://pinelabs-payment-gateway-integration.netlify.app/)
+
 ![Pine Labs Demo](https://img.shields.io/badge/Pine%20Labs-Integration-green) ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
 ## 🎯 Checkout Types
@@ -45,8 +47,8 @@ PINELABS_CLIENT_ID=your_client_id
 PINELABS_CLIENT_SECRET=your_client_secret
 PINELABS_ENVIRONMENT=UAT
 
-# App Configuration
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
+# App Configuration (use your deployment URL for production)
+NEXT_PUBLIC_BASE_URL=https://pinelabs-payment-gateway-integration.netlify.app
 PRODUCT_NAME=Generative AI Course
 PRODUCT_PRICE=9999
 ```

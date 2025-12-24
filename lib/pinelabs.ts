@@ -149,8 +149,8 @@ export class PineLabsClient {
                         country_code: '91', // India country code
                     },
                 },
-                callback_url: `${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/payment/callback`,
-                failure_callback_url: `${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/payment/failure`,
+                callback_url: `${process.env.NEXT_PUBLIC_BASE_URL || 'https://pinelabs-payment-gateway-integration.netlify.app'}/payment/callback`,
+                failure_callback_url: `${process.env.NEXT_PUBLIC_BASE_URL || 'https://pinelabs-payment-gateway-integration.netlify.app'}/payment/failure`,
                 pre_auth: false,
                 notes: customerData.notes || 'Order from Generative AI Course',
             };
